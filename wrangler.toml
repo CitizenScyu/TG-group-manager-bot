@@ -1,0 +1,13 @@
+name = "tg-group-manager-bot"
+main = "src/worker.ts"
+compatibility_date = "2024-11-27"
+
+# 这里可以放一些非敏感配置
+[vars]
+REQUIRED_CHANNEL = "@your_channel_username"
+VERIFY_TIMEOUT_SECONDS = "300"
+BAN_DURATION_SECONDS = "86400"
+BANNED_KEYWORDS = "广告,推广,色情,https://t.me/"
+
+# 管理员 ID 建议用环境变量设置，也可以先写死调试
+# ADMIN_IDS = "123456789,987654321"
