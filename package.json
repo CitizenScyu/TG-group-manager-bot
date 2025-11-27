@@ -1,0 +1,13 @@
+{
+  "name": "tg-group-manager-bot",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "wrangler": "^3.0.0"
+  }
+}
